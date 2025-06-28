@@ -83,7 +83,27 @@ VaneligeSpørsmål.addEventListener("click", () => {
       VaneligeSpørsmål.click(); // Gjenopprett VaneligeSpørsmål
     });
   });
-});
+}); HvaBetyrLimbo.addEventListener("click", () => {
+  localStorage.setItem ("sistKnapp", "HvaBetyrLimbo");
+    meneskerILombo.innerHTML = `Limbo beskrives som en mellomtilstand eller en tilstand av lammelse,
+  hvor papirløse asylsøkere verken kan reise tilbake til hjemlandet eller starte et nytt liv i Norge. 
+  Det oppleves som håpløst og uten mulighet for endring.
+  <a href= https://yemane.no/1> hvordan oppleves limbo </a>`;
+  });
+
+  KontaktOss.addEventListener("click", () => {
+localStorage.setItem ("sistKnapp","KontaktOss")
+ meneskerILombo.innerHTML = `
+    <p>Kontakt oss på telefon: <a href='tel:+4790038238233'>90038238233</a></p>
+    <p>Eller e-post: <a href='mailto:ketil_hindenes@hotmail.com'>ketil_hindenes@hotmail.com</a></p>
+    <p>hvis du vil bli medlem skriv gjerne inn hvem du er når du vipser</p>
+ <a href="https://vipps.no/pay?link=DIN_GENERERTE_LENKE" target="_blank">Betal med Vipps</a>
+
+</a>
+
+  `;
+    // Skjul liID
+  });
 
 // ...eksisterende kode...
 
@@ -98,7 +118,7 @@ function visInnhold(knapp) {
     case "VaneligeSpørsmål":
       VaneligeSpørsmål.click();
       break;
-    case "Kontakt":
+    case "KontaktOss":
       KontaktOss.click();
       break;
     case "HvaBetyrLimbo":
