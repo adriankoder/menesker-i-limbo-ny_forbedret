@@ -8,8 +8,15 @@ const folk = document.getElementById("folk");
 const HvaBetyrLimbo = document.getElementById("HvaBetyrLimbo");
 let bildeSomByttes = document.getElementById("president");
 
+function buttons(vaneligSpørsmålHvorfor,hvaVilDeOppnå,tilbake) {
+button = vaneligSpørsmålHvorfor,hvaVilDeOppnå,tilbake
+if (button===true){
+  width = "25%"
+  display ="flex"
+}
 
 
+}
 
 hovedside.addEventListener("click", () => {
   localStorage.setItem("sistKnapp", "hovedside, beskrivelse");
@@ -50,7 +57,7 @@ I mange tilfeller dreier det seg om omfattende psykososiale og helsemessige utfo
 // ...eksisterende kode...
 
 VaneligeSpørsmål.addEventListener("click", () => {
-  localStorage.setItem("sistKnapp", "VaneligeSpørsmål");
+  localStorage.setItem("sistKnapp", "VaneligeSpørsmål","beskrivelse");
   meneskerILombo.innerHTML = `
   <button id='vaneligSpørsmålHvorfor'>Hvorfor reiser de ikke bare tilbake?</button>
   <button id='hvaVilDeOppnå'>Hva vil de oppnå i Norge?</button>`;
@@ -69,7 +76,7 @@ VaneligeSpørsmål.addEventListener("click", () => {
   });
 
   document.getElementById("hvaVilDeOppnå").addEventListener("click", () => {
-    localStorage.setItem("sistKnapp", "hvaVilDeOppnå"); // <-- Endret her!
+    localStorage.setItem("sistKnapp", "hvaVilDeOppnå","beskrivelse"); // <-- Endret her!
     meneskerILombo.innerHTML = `
       <button id="tilbake">tilbake</button>
       <li>De vil arbeide for maten og betale skatt til fellesskapet</li>
@@ -84,7 +91,7 @@ VaneligeSpørsmål.addEventListener("click", () => {
     });
   });
 }); HvaBetyrLimbo.addEventListener("click", () => {
-  localStorage.setItem ("sistKnapp", "HvaBetyrLimbo");
+  localStorage.setItem ("sistKnapp", "HvaBetyrLimbo","beskrivelse");
     meneskerILombo.innerHTML = `Limbo beskrives som en mellomtilstand eller en tilstand av lammelse,
   hvor papirløse asylsøkere verken kan reise tilbake til hjemlandet eller starte et nytt liv i Norge. 
   Det oppleves som håpløst og uten mulighet for endring.
@@ -92,7 +99,7 @@ VaneligeSpørsmål.addEventListener("click", () => {
   });
 
   KontaktOss.addEventListener("click", () => {
-localStorage.setItem ("sistKnapp","KontaktOss")
+localStorage.setItem ("sistKnapp","KontaktOss","beskrivelse")
  meneskerILombo.innerHTML = `
     <p>Kontakt oss på telefon: <a href='tel:+4790038238233'>90038238233</a></p>
     <p>Eller e-post: <a href='mailto:ketil_hindenes@hotmail.com'>ketil_hindenes@hotmail.com</a></p>

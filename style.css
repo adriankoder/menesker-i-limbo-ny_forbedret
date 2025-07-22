@@ -102,8 +102,7 @@ p {
 }
 
 .bilde {
-  display: flex;
-  flex-direction: row;
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* justify-content: space-between; */
