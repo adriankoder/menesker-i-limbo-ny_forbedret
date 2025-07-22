@@ -61,6 +61,13 @@
     padding-top: 0px;
     margin-top: 5px;
   }
+  .QRIfo{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+      }
   .menesker_ILimbo {
     display: flex;
     flex-direction: column;
@@ -68,7 +75,7 @@
     align-items: center;
     padding-top: 0px;
     margin: 5px;
-    width: 100%;
+    width: 90%;
     height: auto;
   }
   .button {

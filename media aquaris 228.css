@@ -16,6 +16,17 @@
     font-size: 40px;
     font-size: 40px;
   }
+  .QR{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+  }
+  .menesker_ILimbo{
+    width: 90%;
+  }
   .bilde {
     display: flex;
     flex-direction: column;
