@@ -104,7 +104,7 @@ VaneligeSpørsmål.addEventListener("click", () => {
   KontaktOss.addEventListener("click", () => {
 localStorage.setItem ("sistKnapp","KontaktOss","beskrivelse")
  meneskerILombo.innerHTML = `
-    <p>Kontakt oss på telefon: <a href='tel:+4790038238233'>90038238233</a></p>
+    <p>Kontakt oss på telefon: <a href='tel:+4790038233'>90038233</a></p>
     <p>Eller e-post: <a href='mailto:ketil_hindenes@hotmail.com'>ketil_hindenes@hotmail.com</a></p>
     <p>hvis du vil bli medlem skriv gjerne inn hvem du er når du vipser</p>
  <a href="https://vipps.no/pay?link=DIN_GENERERTE_LENKE" target="_blank">Betal med Vipps</a>
