@@ -115,7 +115,7 @@ localStorage.setItem ("sistKnapp","KontaktOss","beskrivelse")
     // Skjul liID
   });
   function skrollTilElement() {
-    const element = document.getElementById("seksjon2");
+    const element = document.getElementById("seksjon1");
     element.scrollIntoView({
         behavior: "smooth",
         block: "start" // Scroll til toppen av elementet
