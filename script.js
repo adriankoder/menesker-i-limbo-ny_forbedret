@@ -35,7 +35,7 @@ hovedside.addEventListener("click", () => {
 });
 
 omArbeidet.addEventListener("click", () => {
-  localStorage.setItem("sistKnapp", "omArbeidet, beskrivelse");
+  localStorage.setItem("sistKnapp", "omArbeidet");
   meneskerILombo.innerHTML = `<p> Hvem er vi?
   Gruppen består av lengeværende papirløse asylsøkere, inkludert kvinner, menn og barn, som har flyktet til Norge. De kjemper for:</p>
 <p><li>Arbeid</li><br>
@@ -148,6 +148,24 @@ function visInnhold(knapp) {
     case "HvaBetyrLimbo":
       HvaBetyrLimbo.click();
       break;
+      
+      case "hovedside":
+        hovedside.click();
+        setTimeout(() => {
+          const btn = document.getElementById("hovedside");
+          if (btn) btn.click();
+        }, 0);
+        break;
+
+      case "omArbeidet":
+        omArbeidet.click();
+        setTimeout(() => {
+          const btn = document.getElementById("omArbeidet");
+          if (btn) btn.click();
+        }, 0);
+        break;
+
+
     case "vaneligSpørsmålHvorfor":
       VaneligeSpørsmål.click();
       setTimeout(() => {
@@ -155,6 +173,9 @@ function visInnhold(knapp) {
         if (btn) btn.click();
       }, 0);
       break;
+
+
+
     case "hvaVilDeOppnå":
       VaneligeSpørsmål.click();
       setTimeout(() => {
