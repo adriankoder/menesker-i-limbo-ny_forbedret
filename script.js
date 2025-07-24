@@ -29,6 +29,8 @@ hovedside.addEventListener("click", () => {
   Vi kommer fra forskjellige land og har ulik bakgrunn.
   Det vi har felles, er at vi lever i Norge uten rett til:</p>`;
   liID.style.display = "block";
+  bildeSomByttes.style.width = "30rem";
+  bildeSomByttes.style.height = "40rem";
   
 });
 
@@ -48,8 +50,8 @@ Både psykisk og somatisk helse kan være dårlig.
 De kan ha helsetilstander som kunne vært behandlet,
 men som utvikler seg til kroniske eller livstruende tilstander fordi de forblir ubehandlet.
 I mange tilfeller dreier det seg om omfattende psykososiale og helsemessige utfordringer.`;
-  // bildeSomByttes.style.width = "30rem";
-  // bildeSomByttes.style.height = "30rem";
+  bildeSomByttes.style.width = "30rem";
+  bildeSomByttes.style.height = "30rem";
   liID.style.display = "none"; // Skjul liID
   bildeSomByttes.src = "./stand 19 okt 24 Torgallmenning.jpg";
   bildeSomByttes.alt = "stand 19 okt 24 Torgallmenning";
