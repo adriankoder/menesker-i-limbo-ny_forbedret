@@ -99,9 +99,14 @@
   }
   .president {
       display: grid;
-      margin: auto;
-      width: 15rem;
-      height: auto;
+      width: 15rem!important;
+      height: auto!important;
+      padding: 0px!important;
+  }
+  .aiBilde {
+    color: white;
+    font-size: 10px;
+    padding-left: 0px;
   }
   .bilde_ls {
     display: flex;
