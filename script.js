@@ -8,8 +8,8 @@ const folk = document.getElementById("folk");
 const HvaBetyrLimbo = document.getElementById("HvaBetyrLimbo");
 let bildeSomByttes = document.getElementById("president");
 
-function buttons(vaneligSpørsmålHvorfor,hvaVilDeOppnå,tilbake) {
-buton = vaneligSpørsmålHvorfor,hvaVilDeOppnå,tilbake
+function buttons(vaneligSpørsmålHvorfor,hvaVilDeOppnå,tilbake,scrollKnapp) {
+buton = vaneligSpørsmålHvorfor,hvaVilDeOppnå,tilbake,scrollKnapp
 if (buton===true){
   width = "25%"
   display ="flex"
@@ -114,6 +114,20 @@ localStorage.setItem ("sistKnapp","KontaktOss","beskrivelse")
   `;
     // Skjul liID
   });
+  function skrollTilElement() {
+    const element = document.getElementById("seksjon2");
+    element.scrollIntoView({
+        behavior: "smooth",
+        block: "start" // Scroll til toppen av elementet
+    });
+}
+
+// Knytter knappen til funksjonen
+document.addEventListener("DOMContentLoaded", function () {
+    const knapp = document.getElementById("scrollKnapp");
+    knapp.addEventListener("click", skrollTilElement);
+});
+
 
 // ...eksisterende kode...
 

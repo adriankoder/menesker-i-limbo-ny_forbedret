@@ -116,6 +116,9 @@
     width: 200px;
     height: 200px;
   }
+  #scrollKnapp{
+    display: block;
+  }
   .colum {
     display: flex;
     flex-direction: column;
