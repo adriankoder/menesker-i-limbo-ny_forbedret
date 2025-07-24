@@ -76,10 +76,16 @@ p {
   color: white;
   font-size: 20px;
 }
+.aiBilde{
+  color: white;
+  font-size: 10px;
+  padding-left: 10px;
+  padding-left: 50px;
+}
 .folk {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   width: 200px;
   height: 200px;
