@@ -6,11 +6,20 @@
 font-size: 100px;
 
 }
+.bilde{
+  display: flex;
+  justify-content: start;
+  width: 100%!important;
+  height: auto!important;
+
+}
+
 .viktig{
   font-size: 2rem;
 }
 p{
-  font-size: 4rem;}
+  font-size: 3rem!important;
+  width: 100%;}
 
 li{
   font-size: 4rem;
@@ -19,8 +28,8 @@ button{
   font-size: 4rem;
 }
 .president{
-  width: 70rem;
-  height: auto;
+  width: 50%!important;
+  height: 50%!important;
 }
 .folk{
   width: 50rem;
@@ -28,7 +37,7 @@ button{
 }
 #beskrivelse{
   font-size: 6rem;
-  width: 50rem;
+  width: 100%;
 }
 .QR{
   width: 20rem;

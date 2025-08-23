@@ -72,7 +72,7 @@ VaneligeSpørsmål.addEventListener("click", () => {
       <p><li>Det er grove brudd på menneskerettigheter der jeg kommer fra.</li></p>
       <p><li>Som kvinne mangler jeg rettigheter i hjemlandet mitt.</li></p>
       <p><li>Mitt land er styrt av diktatur, og jeg er i fare for å bli satt i fengsel og torturert.</li></p>`;
-    meneskerILombo.style.padding = "25px";
+    //meneskerILombo.style.padding = "25px";
     document.getElementById("tilbake").addEventListener("click", () => {
       VaneligeSpørsmål.click(); // Gjenopprett VaneligeSpørsmål
     });
@@ -88,7 +88,7 @@ VaneligeSpørsmål.addEventListener("click", () => {
       <li>De vil ha stemmerett</li>
       <li>Rett til å leve som du og jeg</li>
       <li>De vil ha rett til menneskeverd</li>`;
-    meneskerILombo.style.padding = "25px";
+    //meneskerILombo.style.padding = "25px";
     document.getElementById("tilbake").addEventListener("click", () => {
       VaneligeSpørsmål.click(); // Gjenopprett VaneligeSpørsmål
     });
