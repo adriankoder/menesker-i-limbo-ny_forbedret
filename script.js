@@ -128,7 +128,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-// ...eksisterende kode...
 
 function visInnhold(knapp) {
   switch (knapp) {
@@ -187,7 +186,6 @@ function visInnhold(knapp) {
   }
 }
 
-// ...eksisterende kode...
 
 window.addEventListener("DOMContentLoaded", () => {
   const sistKnapp = localStorage.getItem("sistKnapp");
